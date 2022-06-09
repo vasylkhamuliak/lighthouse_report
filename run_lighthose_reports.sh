@@ -1,12 +1,12 @@
 # Lighthouse CLI git repo with docs - https://github.com/GoogleChrome/lighthouse
 
-jq -c -r '.[]' input.json | while read item;
+jq -c -r '.[]' sites.json | while read item;
 do
 name=$(jq -r '.name' <<< "$item")
 url=$(jq -r '.url' <<< "$item")
 
 echo "Run Mobile lighthouse report for" $url;
-lighthouse --view=true --quiet --output-path=./report/$name-mobile-report.html $url
+lighthouse --view=true --output-path=./report/$name-mobile-report.html $url
 echo "Finished. Open html mobile report for" $url;
 
  echo "Run Desktop lighthouse report for" $url;
