@@ -1,3 +1,9 @@
+## Install lighthouse and jq
+
+`npm install -g lighthouse`
+
+`sudo apt-get install jq` or `brew install jq`
+
 ## Setup and run
 
 1. Run `git clone git@github.com:vasylkhamuliak/lighthouse_report.git`
