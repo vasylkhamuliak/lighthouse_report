@@ -14,5 +14,9 @@
 
 ## Arguments for shell script
 
-$1 - file name
-Example: `./run_lighthose_reports.sh sites-another.json` or `./run_lighthose_reports.sh sites-all.json`
+
+1-st argumet - File name, example `sites.json`
+
+`./run_lighthose_reports.sh sites-another.json` or `./run_lighthose_reports.sh sites-all.json`
+
+`sites-another.json` or `sites-all.json` you need create manually
