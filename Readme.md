@@ -11,3 +11,8 @@
 3. Create folder for reports `mkdir report`
 3. Run `cp sites-example.json sites.json` and add sites in list.
 4. Run script `./run_lighthose_reports.sh`
+
+## Arguments for shell script
+
+$1 - file name
+Example: `./run_lighthose_reports.sh sites-another.json` or `./run_lighthose_reports.sh sites-all.json`
