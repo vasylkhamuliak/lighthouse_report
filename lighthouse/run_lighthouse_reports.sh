@@ -1,11 +1,14 @@
 # Lighthouse CLI git repo with docs - https://github.com/GoogleChrome/lighthouse
 
-if [ $1 ]
+if [ $FILENAME ]
 then
-   filename="settings-$1.json";
+   filename=$FILENAME;
 else
    filename='settings.json';
 fi
+
+echo "# Get sites from $filename file"
+echo "# Start testing"
 
 jq -c -r '.sites[]' $filename | while read item
 do

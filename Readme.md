@@ -50,9 +50,9 @@ or ( brew install jq ) - for MacOS
 
 ## Arguments for lighthouse shell script
 
-If you want run lighthouse test from custom settings.json file (example, name settings-all.json). Need create this custom `settings-all.json` file and add argument `all` to `./lighthouse/run_lighthouse_reports.sh`
+If you want run lighthouse test from custom settings.json file (example, name settings-all.json). Need create this custom `settings-all.json` file and add argument `all` to `./run-lighthouse.sh`
 ```
-./lighthouse/run_lighthouse_reports.sh all
+./run-lighthouse.sh all
 ```
 
-And after that script sites list from file `settings-all.json`
+And after that script take sites list from file `settings-all.json`
