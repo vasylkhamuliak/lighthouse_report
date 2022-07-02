@@ -1,1 +1,3 @@
-report/*
+lighthouse/report/*
+settings-all.json
+settings.json

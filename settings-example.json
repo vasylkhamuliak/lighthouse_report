@@ -1,0 +1,9 @@
+{
+  "api_key": "GOOGLE_PAGE_SPEED_API_KEY_HERE",
+  "sites": [
+    {
+      "name": "google.com",
+      "url": "https://google.com"
+    }
+  ]
+}
