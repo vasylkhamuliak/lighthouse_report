@@ -1,7 +1,7 @@
 # Setup
 
-1. Run `git clone git@gitlab.raketech.com:generic/rt-coordinator-utils.git`
-2. Go to folder `cd rt-coordinator-utils`
+1. Run `git clone git@github.com:vasylkhamuliak/pagespeed_lighthouse_report.git`
+2. Go to folder `cd pagespeed_lighthouse_report`
 3. Run `cp settings-example.json settings.json`, open `settings.json` and add sites in list and [GooglePage Speed API KEY](https://developers.google.com/speed/docs/insights/v5/get-started) .
 4. Create folder for reports for Lighthose `cd lighthose && mkdir report`
 5. Run tests `./run-pagespeed.sh` or `./run-lighthouse.sh` (for lighthouse look at [instruction below](#install-lighthouse-and-jq))
